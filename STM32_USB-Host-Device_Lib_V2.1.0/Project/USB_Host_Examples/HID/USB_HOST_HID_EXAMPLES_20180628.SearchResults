@@ -1,0 +1,3 @@
+---- USB_OTG_FS_Core Matches (2 in 1 files) ----
+Main.c (src):extern USB_OTG_CORE_HANDLE          USB_OTG_FS_Core;
+Main.c (src):              USBH_InterruptSendData (&USB_OTG_FS_Core,buf_fs,4,1);  

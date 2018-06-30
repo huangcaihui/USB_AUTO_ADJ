@@ -1,0 +1,295 @@
+---- hc_num_out Matches (37 in 7 files) ----
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):  USBH_Free_Channel  (pdev, phost->Control.hc_num_out);  
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    phost->Control.hc_num_out = USBH_Alloc_Channel(pdev, 0x00);
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):                           phost->Control.hc_num_out,
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):                           phost->Control.hc_num_out,
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):                           phost->Control.hc_num_out,
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):	                   phost->Control.hc_num_out);  
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    URB_Status = HCD_GetURB_State(pdev , phost->Control.hc_num_out); 
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    pdev->host.hc[phost->Control.hc_num_out].toggle_out = 1; 
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):                      phost->Control.hc_num_out);
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    URB_Status = HCD_GetURB_State(pdev , phost->Control.hc_num_out);     
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    pdev->host.hc[phost->Control.hc_num_out].toggle_out ^= 1; 
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):                      phost->Control.hc_num_out);
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    URB_Status = HCD_GetURB_State(pdev , phost->Control.hc_num_out);  
+Usbh_core.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\inc):  uint8_t               hc_num_out; 
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):        HID_Machine.hc_num_out  =\
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):                            HID_Machine.hc_num_out,
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):  if(HID_Machine.hc_num_out != 0x00)
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):    USB_OTG_HC_Halt(pdev, HID_Machine.hc_num_out);
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):    USBH_Free_Channel  (pdev, HID_Machine.hc_num_out);
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):    HID_Machine.hc_num_out = 0;     /* Reset the Channel as Free */  
+Usbh_hid_core.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\inc):  uint8_t              hc_num_out; 
+Usbh_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):                         MSC_Machine.hc_num_out);
+Usbh_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):      URB_Status = HCD_GetURB_State(pdev , MSC_Machine.hc_num_out);
+Usbh_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):      URB_Status = HCD_GetURB_State(pdev , MSC_Machine.hc_num_out);       
+Usbh_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):                             MSC_Machine.hc_num_out);
+Usbh_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):			     MSC_Machine.hc_num_out);
+Usbh_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):                             MSC_Machine.hc_num_out);
+Usbh_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):                             MSC_Machine.hc_num_out);
+Usbh_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):                             MSC_Machine.hc_num_out);
+Usbh_msc_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):    MSC_Machine.hc_num_out = USBH_Alloc_Channel(pdev, 
+Usbh_msc_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):                        MSC_Machine.hc_num_out,
+Usbh_msc_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):  if ( MSC_Machine.hc_num_out)
+Usbh_msc_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):    USB_OTG_HC_Halt(pdev, MSC_Machine.hc_num_out);
+Usbh_msc_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):    USBH_Free_Channel  (pdev, MSC_Machine.hc_num_out);
+Usbh_msc_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):    MSC_Machine.hc_num_out = 0;     /* Reset the Channel as Free */
+Usbh_msc_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\src):                               pphost->Control.hc_num_out);
+Usbh_msc_core.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\msc\inc):  uint8_t              hc_num_out; 
+---- Initializing hardware.... Matches (1 in 1 files) ----
+Dual_core_demo.c (src):  LCD_UsrLog("Initializing hardware....\n");
+---- Initializing hardware.... Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Host_Examples\DualCore\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- printf Matches (17 in 6 files) ----
+Lcd_log.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\common):* @brief  Redirect the printf to the lcd 
+Lcd_log.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\common):/* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
+Lcd_log.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\common):                            printf("ERROR: ") ;\
+Lcd_log.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\common):                            printf(__VA_ARGS__);\
+Lcd_log.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\common):                            printf(__VA_ARGS__);\
+Lcd_log.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\common):                            printf(__VA_ARGS__);\
+Main.c (src):                    //printf("11111111111111111111 \ n");
+Main.c (src):                printf(" is host 22222222222222222 \n");
+Main.c (src):  ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+Readme.txt:      This example retargets the C library printf() function to the EVAL board抯 LCD
+Readme.txt:      the LCD). To use printf() with TrueSTUDIO Professional version, just include the
+Readme.txt:      It contains additional code to support printf() redirection.
+Usbh_hid_usr.c (src):                                            printf(__VA_ARGS__);\
+Usbh_ioreq.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    printf("USBH_CtlSendData 000 \n\n");
+Usbh_ioreq.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    printf("USBH_InterruptReceiveData 111 \n\n");
+Usbh_ioreq.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    printf("USBH_InterruptSendData 333 \n\n");
+---- LCD_UsrLog Matches (54 in 13 files) ----
+Dual_core_demo.c (src):  LCD_UsrLog("Initializing hardware....\n");
+Dual_core_demo.c (src):   LCD_UsrLog("USB Host High speed initialized.\n");
+Dual_core_demo.c (src):  LCD_UsrLog("USB Host Full speed initialized.\n");
+Dual_core_demo.c (src):    //LCD_UsrLog("Demo_Process 1111111 \n\n");
+Dual_core_demo.c (src):  //LCD_UsrLog("Demo_Process 2222222 \n\n");
+Dual_core_demo.c (src):          LCD_UsrLog("Starting Enumeration....\n");          
+Dual_core_demo.c (src):            LCD_UsrLog("Starting Enumeration....\n");
+Dual_core_demo.c (src):      LCD_UsrLog("> File System initialized.\n");
+Dual_core_demo.c (src):      LCD_UsrLog("> Disk capacity : %d Bytes\n", 
+Dual_core_demo.c (src):            LCD_UsrLog("> Writing File to disk flash ...\n");
+Dual_core_demo.c (src):                LCD_UsrLog("> 'STM32.TXT' file created\n");
+Dual_core_demo.c (src):            LCD_UsrLog("> Slide show application closed.\n");
+Dual_core_demo.c (src):            LCD_UsrLog("> HID application closed.\n");
+Dual_core_demo.c (src):        LCD_UsrLog((void *)tmp);
+Lcd_log.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\common):  *          LCD_UsrLog() and LCD_DbgLog().
+Lcd_log.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\common):#define  LCD_UsrLog(...)    LCD_LineColor = LCD_LOG_DEFAULT_COLOR;\
+Release_Notes.html (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\common):macros: LCD_ErrLog(),&nbsp;&nbsp;&nbsp; LCD_UsrLog() and LCD_DbgLog().</span></li></ul></ul><div style="margin-left: 40px;"><span style="font-size: 10pt; font-family: Verdana;"><span style="text-decoration: underline; font-style: italic;">Note</span><span style="font-style: italic;">:</span> the <span style="font-style: italic;">STM322xG_EVAL</span> board RevA was wrongly named <span style="font-style: italic;">STM3220F_EVAL</span></span><br></div><span style="font-size: 10pt; font-family: Verdana;"></span><h3 style="background: rgb(51, 102, 255) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; margin-right: 500pt; width: 167px;"><span style="font-size: 10pt; font-family: Arial; color: white;">V4.5.0 / 07-March-2011<o:p></o:p></span></h3>
+Release_Notes.html (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):macros: LCD_ErrLog(),&nbsp;&nbsp;&nbsp; LCD_UsrLog() and LCD_DbgLog().</span></li></ul></ul><div style="margin-left: 40px;"><span style="font-size: 10pt; font-family: Verdana;"><span style="text-decoration: underline; font-style: italic;">Note</span><span style="font-style: italic;">:</span> the <span style="font-style: italic;">STM322xG_EVAL</span> board RevA was wrongly named <span style="font-style: italic;">STM3220F_EVAL</span></span><br></div><span style="font-size: 10pt; font-family: Verdana;"></span><h3 style="background: rgb(51, 102, 255) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; margin-right: 500pt; width: 167px;"><span style="font-size: 10pt; font-family: Arial; color: white;">V4.5.0 / 07-March-2011<o:p></o:p></span></h3>
+Release_Notes.html (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):macros: LCD_ErrLog(),&nbsp;&nbsp;&nbsp; LCD_UsrLog() and LCD_DbgLog().</span></li></ul></ul><div style="margin-left: 40px;"><span style="font-size: 10pt; font-family: Verdana;"><span style="text-decoration: underline; font-style: italic;">Note</span><span style="font-style: italic;">:</span> the <span style="font-style: italic;">STM322xG_EVAL</span> board RevA was wrongly named <span style="font-style: italic;">STM3220F_EVAL</span></span><br></div><span style="font-size: 10pt; font-family: Verdana;"></span><h3 style="background: rgb(51, 102, 255) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; margin-right: 500pt; width: 167px;"><span style="font-size: 10pt; font-family: Arial; color: white;">V4.5.0 / 07-March-2011<o:p></o:p></span></h3>
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  /* LCD_UsrLog("> I2C error recovered.\n"); */
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  /* LCD_UsrLog("> I2C error recovered.\n"); */
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    LCD_UsrLog("HOST_IDLE 11 \n");
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    LCD_UsrLog("HOST_DEV_ATTACHED 11 \n");
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):      LCD_UsrLog("USBH_HandleEnum() = USBH_OK 11 \n\n");
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    LCD_UsrLog("HOST_CLASS() = USBH_OK 22 \n\n");
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):        LCD_UsrLog("ENUM_GET_FULL_DEV_DESC 44444 \n\n"); 
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    LCD_UsrLog("ENUM_GET_FULL_DEV_DESC 55555 \n\n"); 
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):  LCD_UsrLog("USBH_HID_Handle 11111 \n\n");
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):    LCD_UsrLog("USBH_HID_Handle 2222222222 \n\n");
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):    LCD_UsrLog("USBH_HID_Handle 3333333 \n\n");
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):      LCD_UsrLog("USBH_HID_Handle 44444444444 \n\n");
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):    LCD_UsrLog("USBH_HID_Handle 5555555 \n\n");
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):  LCD_UsrLog("USBH_HID_Handle 6666666666 \n\n");
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):  LCD_UsrLog("USBH_HID_Handle 7777777777 \n\n");
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):  LCD_UsrLog("USBH_HID_Handle 88888888888888 \n\n");
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):  LCD_UsrLog("USBH_HID_Handle 8999999999999999 \n\n");
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):  LCD_UsrLog("USBH_HID_Handle 1010101100 \n\n");
+Usbh_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\class\hid\src):  LCD_UsrLog("USBH_HID_Handle 1212121212 \n\n");
+Usbh_hid_usr.c (src):    LCD_UsrLog((void*)USB_HID_MouseStatus); 
+Usbh_hid_usr.c (src):    LCD_UsrLog((void*)USB_HID_KeybrdStatus); 
+Usbh_hid_usr.c (src):    LCD_UsrLog("\n______________ USER TEXT ______________\n"); 
+Usbh_ioreq.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    LCD_UsrLog("USBH_CtlSendData 000 \n\n");
+Usbh_ioreq.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    LCD_UsrLog("USBH_InterruptReceiveData 111 \n\n");
+Usbh_ioreq.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    LCD_UsrLog("USBH_InterruptSendData 333 \n\n");
+Usbh_msc_usr.c (src):    LCD_UsrLog((void *)MSG_DEV_HIGHSPEED);
+Usbh_msc_usr.c (src):    LCD_UsrLog((void *)MSG_DEV_FULLSPEED);
+Usbh_msc_usr.c (src):    LCD_UsrLog((void *)MSG_DEV_LOWSPEED);
+Usbh_msc_usr.c (src):    LCD_UsrLog((void *)MSG_DEV_ERROR);
+Usbh_msc_usr.c (src):    LCD_UsrLog((void *)MSG_MSC_CLASS);
+Usbh_msc_usr.c (src):  LCD_UsrLog(">Port2:Manufacturer : %s\n", (char *)ManufacturerString);
+Usbh_msc_usr.c (src):  LCD_UsrLog(">Port2:Product : %s\n", (char *)ProductString);  
+Usbh_msc_usr.c (src):  LCD_UsrLog( ">Port2:Serial Number : %s\n", (char *)SerialNumString);    
+Usbh_msc_usr.c (src):  LCD_UsrLog((void *)MSG_DEV_ENUMERATED);
+Usbh_msc_usr.c (src):  LCD_UsrLog (">Port2:Device not supported : LUN >Port2:0 "); 
+---- HOST_IDLE 11 Matches (1 in 1 files) ----
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):    LCD_UsrLog("HOST_IDLE 11 \n");
+---- >Port1:Enumeration completed Matches (1 in 1 files) ----
+Usbh_hid_usr.c (src):const uint8_t MSG_HID_DEV_ENUMERATED[]     = ">Port1:Enumeration completed\n";
+---- >Port1:Enumeration completed Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Host_Examples\DualCore\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- USB_OTG_BSP_EnableInterrupt Matches (8 in 3 files) ----
+STM324xG-EVAL.htm (mdk-arm\stm324xg-eval):<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_OTG_BSP_EnableInterrupt
+STM324xG-EVAL.htm (mdk-arm\stm324xg-eval):<BR><BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_OTG_BSP_EnableInterrupt
+STM324xG-EVAL.htm (mdk-arm\stm324xg-eval):<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_OTG_BSP_EnableInterrupt
+STM324xG-EVAL.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[151]"></a>USB_OTG_BSP_EnableInterrupt</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, usb_bsp.o(i.USB_OTG_BSP_EnableInterrupt))
+STM324xG-EVAL.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USB_OTG_BSP_EnableInterrupt &rArr; NVIC_Init
+Usbh_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_host_library\core\src):  USB_OTG_BSP_EnableInterrupt(pdev);
+Usb_bsp.c (src):  * @brief  USB_OTG_BSP_EnableInterrupt
+Usb_bsp.c (src):void USB_OTG_BSP_EnableInterrupt(USB_OTG_CORE_HANDLE *pdev)
+---- USB_OTG_BSP_DriveVBUS Matches (6 in 2 files) ----
+STM324xG-EVAL.htm (mdk-arm\stm324xg-eval):<BR><BR>[Called By]<UL><LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_OTG_BSP_DriveVBUS
+STM324xG-EVAL.htm (mdk-arm\stm324xg-eval):<BR><BR>[Called By]<UL><LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_OTG_BSP_DriveVBUS
+STM324xG-EVAL.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[172]"></a>USB_OTG_BSP_DriveVBUS</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, usb_bsp.o(i.USB_OTG_BSP_DriveVBUS))
+STM324xG-EVAL.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USB_OTG_BSP_DriveVBUS
+STM324xG-EVAL.htm (mdk-arm\stm324xg-eval):<LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_OTG_BSP_DriveVBUS
+Usb_bsp.c (src):void USB_OTG_BSP_DriveVBUS(USB_OTG_CORE_HANDLE *pdev, uint8_t state)
+---- NVIC_InitStructure Matches (156 in 12 files) ----
+Main.c (src):    NVIC_InitStructure.NVIC_IRQChannel = UART4_IRQn;//串口4中断通道
+Main.c (src):	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority=1;//抢占优先级3
+Main.c (src):	NVIC_InitStructure.NVIC_IRQChannelSubPriority =0;		//子优先级3
+Main.c (src):	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;			//IRQ通道使能
+Main.c (src):	NVIC_Init(&NVIC_InitStructure);	//根据指定的参数初始化VIC寄存器、
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitTypeDef NVIC_InitStructure;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):    NVIC_InitStructure.NVIC_IRQChannel = BUTTON_IRQn[Button];
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0x0F;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):    NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0x0F;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):    NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):    NVIC_Init(&NVIC_InitStructure); 
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitTypeDef NVIC_InitStructure;    
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_TX_IRQn;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = DISABLE;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_RX_IRQn;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_Init(&NVIC_InitStructure);   
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitTypeDef NVIC_InitStructure;  
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_TX_IRQn;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_RX_IRQn;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm3210c_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_Init(&NVIC_InitStructure);  
+Stm3210c_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitTypeDef NVIC_InitStructure;
+Stm3210c_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannel = IOE_IT_EXTI_IRQn;
+Stm3210c_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0x0F;
+Stm3210c_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0x0F;
+Stm3210c_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm3210c_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3210c_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):NVIC_InitTypeDef   NVIC_InitStructure;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitTypeDef NVIC_InitStructure;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):    NVIC_InitStructure.NVIC_IRQChannel = BUTTON_IRQn[Button];
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0x0F;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):    NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0x0F;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):    NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):    NVIC_Init(&NVIC_InitStructure); 
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_TX_IRQn;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = DISABLE;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_RX_IRQn;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_Init(&NVIC_InitStructure);   
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_TX_IRQn;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_RX_IRQn;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm322xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_Init(&NVIC_InitStructure);  
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitTypeDef NVIC_InitStructure;
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannel = AUDIO_MAL_DMA_IRQ;
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = EVAL_AUDIO_IRQ_PREPRIO;
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = EVAL_AUDIO_IRQ_SUBRIO;
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitTypeDef NVIC_InitStructure;  
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannel = AUDIO_MAL_DMA_IRQ;
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = EVAL_AUDIO_IRQ_PREPRIO;
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = EVAL_AUDIO_IRQ_SUBRIO;
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = DISABLE;
+Stm322xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_Init(&NVIC_InitStructure);  
+Stm322xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitTypeDef NVIC_InitStructure;
+Stm322xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannel = IOE_IT_EXTI_IRQn;
+Stm322xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0x0F;
+Stm322xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0x0F;
+Stm322xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm322xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm322xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  *             NVIC_InitStructure.NVIC_IRQChannel = SDIO_IRQn;
+Stm322xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  *             NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+Stm322xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  *             NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
+Stm322xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  *             NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm322xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  *             NVIC_Init(&NVIC_InitStructure);
+Stm322xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  *             NVIC_InitStructure.NVIC_IRQChannel = SD_SDIO_DMA_IRQn;
+Stm322xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  *             NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
+Stm322xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm322xg_eval):  *             NVIC_Init(&NVIC_InitStructure);
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):NVIC_InitTypeDef   NVIC_InitStructure;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitTypeDef NVIC_InitStructure;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):    NVIC_InitStructure.NVIC_IRQChannel = BUTTON_IRQn[Button];
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0x0F;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):    NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0x0F;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):    NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):    NVIC_Init(&NVIC_InitStructure); 
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_TX_IRQn;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = DISABLE;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_RX_IRQn;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_Init(&NVIC_InitStructure);   
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_TX_IRQn;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannel = sEE_I2C_DMA_RX_IRQn;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = sEE_I2C_DMA_PREPRIO;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = sEE_I2C_DMA_SUBPRIO;
+Stm324xg_eval.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_Init(&NVIC_InitStructure);  
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitTypeDef NVIC_InitStructure;
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannel = AUDIO_MAL_DMA_IRQ;
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = EVAL_AUDIO_IRQ_PREPRIO;
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = EVAL_AUDIO_IRQ_SUBRIO;
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitTypeDef NVIC_InitStructure;  
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannel = AUDIO_MAL_DMA_IRQ;
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = EVAL_AUDIO_IRQ_PREPRIO;
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = EVAL_AUDIO_IRQ_SUBRIO;
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = DISABLE;
+Stm324xg_eval_audio_codec.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_Init(&NVIC_InitStructure);  
+Stm324xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitTypeDef NVIC_InitStructure;
+Stm324xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannel = IOE_IT_EXTI_IRQn;
+Stm324xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0x0F;
+Stm324xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0x0F;
+Stm324xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm324xg_eval_ioe.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  NVIC_Init(&NVIC_InitStructure);
+Stm324xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  *             NVIC_InitStructure.NVIC_IRQChannel = SDIO_IRQn;
+Stm324xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  *             NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+Stm324xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  *             NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
+Stm324xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  *             NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Stm324xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  *             NVIC_Init(&NVIC_InitStructure);
+Stm324xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  *             NVIC_InitStructure.NVIC_IRQChannel = SD_SDIO_DMA_IRQn;
+Stm324xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  *             NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
+Stm324xg_eval_sdio_sd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\utilities\stm32_eval\stm3240_41_g_eval):  *             NVIC_Init(&NVIC_InitStructure);
+Usb_bsp.c (src):  NVIC_InitTypeDef NVIC_InitStructure; 
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannel = OTG_FS_IRQn;
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 4;
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Usb_bsp.c (src):  NVIC_Init(&NVIC_InitStructure);  
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannel = OTG_HS_IRQn;
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Usb_bsp.c (src):  NVIC_Init(&NVIC_InitStructure);    
+Usb_bsp.c (src):  NVIC_InitTypeDef NVIC_InitStructure;
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;
+Usb_bsp.c (src):  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+Usb_bsp.c (src):  NVIC_Init(&NVIC_InitStructure);

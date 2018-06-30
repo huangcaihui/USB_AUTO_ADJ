@@ -1,0 +1,268 @@
+---- USBD_HID_SendReport Matches (14 in 6 files) ----
+App.c (src):        USBD_HID_SendReport (&USB_OTG_dev,   
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SendReport
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SendReport
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[f0]"></a>USBD_HID_SendReport</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, usbd_hid_core.o(i.USBD_HID_SendReport))
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = USBD_HID_SendReport &rArr; DCD_EP_Tx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SendReport
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR>[Called By]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SendReport
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SendReport
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[f2]"></a>USBD_HID_SendReport</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, usbd_hid_core.o(i.USBD_HID_SendReport))
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = USBD_HID_SendReport &rArr; DCD_EP_Tx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+Stm32fxxx_it.c (src):    USBD_HID_SendReport (&USB_OTG_dev, 
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):  * @brief  USBD_HID_SendReport 
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):uint8_t USBD_HID_SendReport     (USB_OTG_CORE_HANDLE  *pdev, 
+Usbd_hid_core.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\inc):uint8_t USBD_HID_SendReport (USB_OTG_CORE_HANDLE  *pdev, 
+---- USBD_HID_SendReport Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- USBD_HID_CfgDesc Matches (4 in 1 files) ----
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):__ALIGN_BEGIN static uint8_t USBD_HID_CfgDesc[USB_HID_CONFIG_DESC_SIZ] __ALIGN_END =
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):        pbuf = USBD_HID_CfgDesc + 0x12;
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):  *length = sizeof (USBD_HID_CfgDesc);
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):  return USBD_HID_CfgDesc;
+---- USBD_HID_CfgDesc Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- OTG_FS_IRQHandler Matches (9 in 3 files) ----
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval): <LI><a href="#[6b]">OTG_FS_IRQHandler</a> from stm32fxxx_it.o(i.OTG_FS_IRQHandler) referenced from startup_stm32f4xx.o(RESET)
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[6b]"></a>OTG_FS_IRQHandler</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32fxxx_it.o(i.OTG_FS_IRQHandler))
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 100<LI>Call Chain = OTG_FS_IRQHandler &rArr; USBD_OTG_ISR_Handler &rArr; DCD_HandleInEP_ISR &rArr; DCD_WriteEmptyTxFifo &rArr; USB_OTG_WritePacket
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OTG_FS_IRQHandler
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval): <LI><a href="#[6b]">OTG_FS_IRQHandler</a> from startup_stm32f4xx.o(.text) referenced from startup_stm32f4xx.o(RESET)
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[6b]"></a>OTG_FS_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f4xx.o(.text))
+Stm32fxxx_it.c (src):void OTG_FS_IRQHandler(void)
+---- OTG_FS_IRQHandler Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- printf Matches (5 in 2 files) ----
+App.c (src):        //printf("hch 1111111111111111111111 \n");
+App.c (src):  ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+Readme.txt:      This example retargets the C library printf() function to the EVAL board抯 LCD
+Readme.txt:      the LCD). To use printf() with TrueSTUDIO Professional version, just include the
+Readme.txt:      It contains additional code to support printf() redirection.
+---- printf Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- HID_OUT_EP Matches (3 in 2 files) ----
+Usbd_conf.h (inc):#define HID_OUT_EP                   0x01
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):              HID_OUT_EP,
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):  DCD_EP_Close (pdev , HID_OUT_EP);
+---- HID_OUT_EP Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- HID_MOUSE_ReportDesc Matches (2 in 1 files) ----
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):__ALIGN_BEGIN static uint8_t HID_MOUSE_ReportDesc[HID_MOUSE_REPORT_DESC_SIZE] __ALIGN_END =
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):        pbuf = HID_MOUSE_ReportDesc;
+---- HID_MOUSE_ReportDesc Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- DCD_EP_PrepareRx Matches (35 in 9 files) ----
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[8a]"></a>DCD_EP_PrepareRx</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, usb_dcd.o(i.DCD_EP_PrepareRx))
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DCD_EP_PrepareRx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = USBD_CtlContinueRx &rArr; DCD_EP_PrepareRx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DCD_EP_PrepareRx
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = USBD_CtlReceiveStatus &rArr; DCD_EP_PrepareRx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DCD_EP_PrepareRx
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DCD_EP_PrepareRx
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DCD_EP_PrepareRx
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = USBD_DataInStage &rArr; USBD_CtlReceiveStatus &rArr; DCD_EP_PrepareRx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[8a]"></a>DCD_EP_PrepareRx</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, usb_dcd.o(i.DCD_EP_PrepareRx))
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DCD_EP_PrepareRx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = USBD_CtlContinueRx &rArr; DCD_EP_PrepareRx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DCD_EP_PrepareRx
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = USBD_CtlReceiveStatus &rArr; DCD_EP_PrepareRx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DCD_EP_PrepareRx
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DCD_EP_PrepareRx
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DCD_EP_PrepareRx
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = USBD_DataInStage &rArr; USBD_CtlReceiveStatus &rArr; DCD_EP_PrepareRx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+Usbd_audio_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\audio\src):  DCD_EP_PrepareRx(pdev,
+Usbd_audio_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\audio\src):    DCD_EP_PrepareRx(pdev,
+Usbd_cdc_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\cdc\src):  DCD_EP_PrepareRx(pdev,
+Usbd_cdc_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\cdc\src):  DCD_EP_PrepareRx(pdev,
+Usbd_ioreq.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\core\src):  DCD_EP_PrepareRx (pdev,
+Usbd_ioreq.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\core\src):  DCD_EP_PrepareRx (pdev,
+Usbd_ioreq.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\core\src):  DCD_EP_PrepareRx ( pdev,
+Usbd_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\msc\src):  DCD_EP_PrepareRx (pdev,
+Usbd_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\msc\src):  DCD_EP_PrepareRx (pdev,
+Usbd_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\msc\src):  DCD_EP_PrepareRx (pdev,
+Usbd_msc_bot.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\msc\src):    DCD_EP_PrepareRx (pdev,
+Usbd_msc_scsi.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\msc\src):    DCD_EP_PrepareRx (cdev,
+Usbd_msc_scsi.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\msc\src):    DCD_EP_PrepareRx (cdev,
+Usb_dcd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_otg_driver\src):* @brief  DCD_EP_PrepareRx
+Usb_dcd.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_otg_driver\src):uint32_t   DCD_EP_PrepareRx( USB_OTG_CORE_HANDLE *pdev,
+Usb_dcd.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_otg_driver\inc):uint32_t   DCD_EP_PrepareRx ( USB_OTG_CORE_HANDLE *pdev,
+---- DCD_EP_PrepareRx Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- InitHardUart Matches (0 in 0 files) ----
+---- InitHardUart Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- send_flag Matches (1 in 1 files) ----
+Usbd_hid_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\hid\src):     send_flag=1; 
+---- send_flag Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- GPIO_TypeDef Matches (28 in 3 files) ----
+App.c (src):GPIO_TypeDef* io_led=GPIOC;//定义一个指向结构体<span style="font-family:Arial, Helvetica, sans-serif;">GPIO_TypeDef</span><span style="font-family:Arial, Helvetica, sans-serif;">的io_led  </span>  
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_DeInit(GPIO_TypeDef* GPIOx)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_Init(GPIO_TypeDef* GPIOx, GPIO_InitTypeDef* GPIO_InitStruct)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_PinLockConfig(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):uint8_t GPIO_ReadInputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):uint16_t GPIO_ReadInputData(GPIO_TypeDef* GPIOx)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):uint8_t GPIO_ReadOutputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):uint16_t GPIO_ReadOutputData(GPIO_TypeDef* GPIOx)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_SetBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_ResetBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_WriteBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, BitAction BitVal)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_Write(GPIO_TypeDef* GPIOx, uint16_t PortVal)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_ToggleBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_PinAFConfig(GPIO_TypeDef* GPIOx, uint16_t GPIO_PinSource, uint8_t GPIO_AF)
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_DeInit(GPIO_TypeDef* GPIOx);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_Init(GPIO_TypeDef* GPIOx, GPIO_InitTypeDef* GPIO_InitStruct);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_PinLockConfig(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):uint8_t GPIO_ReadInputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):uint16_t GPIO_ReadInputData(GPIO_TypeDef* GPIOx);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):uint8_t GPIO_ReadOutputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):uint16_t GPIO_ReadOutputData(GPIO_TypeDef* GPIOx);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_SetBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_ResetBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_WriteBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, BitAction BitVal);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_Write(GPIO_TypeDef* GPIOx, uint16_t PortVal);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_ToggleBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_PinAFConfig(GPIO_TypeDef* GPIOx, uint16_t GPIO_PinSource, uint8_t GPIO_AF);
+---- GPIO_TypeDef Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- RCC_AHB2PeriphClockCmd Matches (18 in 15 files) ----
+App.c (src):    RCC_AHB2PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);   //时钟  
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[10f]"></a>RCC_AHB2PeriphClockCmd</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f4xx_rcc.o(i.RCC_AHB2PeriphClockCmd))
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHB2PeriphClockCmd
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[10f]"></a>RCC_AHB2PeriphClockCmd</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f4xx_rcc.o(i.RCC_AHB2PeriphClockCmd))
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHB2PeriphClockCmd
+Stm32f4xx_cryp.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *              RCC_AHB2PeriphClockCmd(RCC_AHB2Periph_CRYP, ENABLE); function.
+Stm32f4xx_cryp_aes.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *            RCC_AHB2PeriphClockCmd(RCC_AHB2Periph_CRYP, ENABLE); function.
+Stm32f4xx_cryp_des.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *            RCC_AHB2PeriphClockCmd(RCC_AHB2Periph_CRYP, ENABLE); function.
+Stm32f4xx_cryp_tdes.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *            RCC_AHB2PeriphClockCmd(RCC_AHB2Periph_CRYP, ENABLE); function.
+Stm32f4xx_dcmi.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *                 RCC_AHB2PeriphClockCmd(RCC_AHB2Periph_DCMI, ENABLE);
+Stm32f4xx_hash.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *            RCC_AHB2PeriphClockCmd(RCC_AHB2Periph_HASH, ENABLE) function.
+Stm32f4xx_hash_md5.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *            RCC_AHB2PeriphClockCmd(RCC_AHB2Periph_HASH, ENABLE); function.
+Stm32f4xx_hash_sha1.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *            RCC_AHB2PeriphClockCmd(RCC_AHB2Periph_HASH, ENABLE); function.
+Stm32f4xx_rcc.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void RCC_AHB2PeriphClockCmd(uint32_t RCC_AHB2Periph, FunctionalState NewState)
+Stm32f4xx_rcc.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void RCC_AHB2PeriphClockCmd(uint32_t RCC_AHB2Periph, FunctionalState NewState);
+Stm32f4xx_rng.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *            RCC_AHB2PeriphClockCmd(RCC_AHB2Periph_RNG, ENABLE) function.
+Usb_bsp.c (src):  RCC_AHB2PeriphClockCmd(RCC_AHB2Periph_OTG_FS, ENABLE) ; 
+---- RCC_AHB2PeriphClockCmd Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- GPIO_SetBits Matches (3 in 2 files) ----
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *             GPIO_SetBits()/GPIO_ResetBits()
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_SetBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_SetBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+---- GPIO_SetBits Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- GPIO_ToggleBits Matches (2 in 2 files) ----
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void GPIO_ToggleBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+Stm32f4xx_gpio.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void GPIO_ToggleBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+---- GPIO_ToggleBits Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- RCC_AHB1Periph_GPIOC Matches (9 in 5 files) ----
+App.c (src):    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);   //时钟  
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):    RCC_AHB1PeriphResetCmd(RCC_AHB1Periph_GPIOC, ENABLE);
+Stm32f4xx_gpio.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):    RCC_AHB1PeriphResetCmd(RCC_AHB1Periph_GPIOC, DISABLE);
+Stm32f4xx_rcc.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *            @arg RCC_AHB1Periph_GPIOC:       GPIOC clock
+Stm32f4xx_rcc.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *            @arg RCC_AHB1Periph_GPIOC:   GPIOC clock
+Stm32f4xx_rcc.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *            @arg RCC_AHB1Periph_GPIOC:       GPIOC clock
+Stm32f4xx_rcc.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):#define RCC_AHB1Periph_GPIOC             ((uint32_t)0x00000004)
+Usb_bsp.c (src):  RCC_AHB2PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
+Usb_bsp.c (src):                         RCC_AHB1Periph_GPIOC | RCC_AHB1Periph_GPIOH | 
+---- RCC_AHB1Periph_GPIOC Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+C:\Users\huangcaihui\Desktop\资料\SMT32F405_自动化测试\STM32_USB-Host-Device_Lib_V2.1.0_new\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\HID\MDK-ARM\JLinkLog.txt : File could not be opened.
+---- USART_SendData Matches (8 in 3 files) ----
+App.c (src):      USART_SendData(USART1, (unsigned char) ch);// USART1 可以换成 USART2 等
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  can be done using USART_SendData() function and stores the written data into 
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void USART_SendData(USART_TypeDef* USARTx, uint16_t Data)
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *          to USART_DR register (USART_SendData()).
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *          (USART_SendData()).
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *          operation to USART_DR register (USART_SendData()).
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *          (USART_SendData()).
+Stm32f4xx_usart.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void USART_SendData(USART_TypeDef* USARTx, uint16_t Data);
+---- UART4_Config Matches (3 in 3 files) ----
+Usbd_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\core\src):  UART4_Config();
+Usb_bsp.c (src):void UART4_Config(void)
+Usb_bsp.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_otg_driver\inc):void UART4_Config(void);
+---- USART_InitStructure Matches (8 in 1 files) ----
+Usb_bsp.c (src):    USART_InitTypeDef USART_InitStructure; 
+Usb_bsp.c (src):    USART_InitStructure.USART_BaudRate = 115200;
+Usb_bsp.c (src):    USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+Usb_bsp.c (src):    USART_InitStructure.USART_StopBits = USART_StopBits_1;
+Usb_bsp.c (src):    USART_InitStructure.USART_Parity = USART_Parity_No;
+Usb_bsp.c (src):    USART_InitStructure.USART_HardwareFlowControl =
+Usb_bsp.c (src):    USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+Usb_bsp.c (src):    USART_Init(UART4, &USART_InitStructure);
+---- fputc Matches (13 in 3 files) ----
+App.c (src):int fputc(int ch, FILE *f)
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval): <LI><a href="#[7e]">fputc</a> from lcd_log.o(i.fputc) referenced from printfb.o(i.__0printf$bare)
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[7e]"></a>fputc</STRONG> (Thumb, 244 bytes, Stack size 40 bytes, lcd_log.o(i.fputc))
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = fputc &rArr; LCD_LOG_UpdateDisplay &rArr; LCD_DisplayStringLine &rArr; LCD_DisplayChar &rArr; LCD_DrawChar &rArr; LCD_SetCursor
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval): <LI><a href="#[7d]">fputc</a> from lcd_log.o(i.fputc) referenced from printfb.o(i.__0printf$bare)
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[7d]"></a>fputc</STRONG> (Thumb, 244 bytes, Stack size 40 bytes, lcd_log.o(i.fputc))
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = fputc &rArr; LCD_LOG_UpdateDisplay &rArr; LCD_DisplayStringLine &rArr; LCD_DisplayChar &rArr; LCD_DrawChar &rArr; LCD_SetCursor
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+---- fgetc Matches (1 in 1 files) ----
+App.c (src):int fgetc(FILE *f) 
+---- fputc Matches (13 in 3 files) ----
+App.c (src):int fputc(int ch, FILE *f)
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval): <LI><a href="#[7e]">fputc</a> from lcd_log.o(i.fputc) referenced from printfb.o(i.__0printf$bare)
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[7e]"></a>fputc</STRONG> (Thumb, 244 bytes, Stack size 40 bytes, lcd_log.o(i.fputc))
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = fputc &rArr; LCD_LOG_UpdateDisplay &rArr; LCD_DisplayStringLine &rArr; LCD_DisplayChar &rArr; LCD_DrawChar &rArr; LCD_SetCursor
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval): <LI><a href="#[7d]">fputc</a> from lcd_log.o(i.fputc) referenced from printfb.o(i.__0printf$bare)
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[7d]"></a>fputc</STRONG> (Thumb, 244 bytes, Stack size 40 bytes, lcd_log.o(i.fputc))
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = fputc &rArr; LCD_LOG_UpdateDisplay &rArr; LCD_DisplayStringLine &rArr; LCD_DisplayChar &rArr; LCD_DrawChar &rArr; LCD_SetCursor
+STM324xG-EVAL_HS.htm (mdk-arm\stm324xg-eval):<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+---- PUTCHAR_PROTOTYPE Matches (0 in 0 files) ----
+---- USART_SendData Matches (15 in 4 files) ----
+App.c (src):     USART_SendData(UART4, (uint8_t) ch);
+App.c (src):        USART_SendData(UART4, (uint8_t) ch);
+App.c (src):    USART_SendData(UART4, (uint8_t) ch);
+App.c (src):            //USART_SendData(UART4, data);
+App.c (src):        USART_SendData(UART4, data);
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[11f]"></a>USART_SendData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f4xx_usart.o(i.USART_SendData))
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_SendData
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  can be done using USART_SendData() function and stores the written data into 
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):void USART_SendData(USART_TypeDef* USARTx, uint16_t Data)
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *          to USART_DR register (USART_SendData()).
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *          (USART_SendData()).
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *          operation to USART_DR register (USART_SendData()).
+Stm32f4xx_usart.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\src):  *          (USART_SendData()).
+Stm32f4xx_usart.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32f4xx_stdperiph_driver\inc):void USART_SendData(USART_TypeDef* USARTx, uint16_t Data);
+---- I2C_OWN_ADDR Matches (0 in 0 files) ----
+---- IIC_Start Matches (0 in 0 files) ----
+---- UART4_Config Matches (18 in 4 files) ----
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART4_Config
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART4_Config
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART4_Config
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART4_Config
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART4_Config
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<P><STRONG><a name="[f4]"></a>UART4_Config</STRONG> (Thumb, 174 bytes, Stack size 48 bytes, usb_bsp.o(i.UART4_Config))
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = UART4_Config &rArr; USART_Init &rArr; RCC_GetClocksFreq
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART4_Config
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR><BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART4_Config
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART4_Config
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART4_Config
+STM324xG-EVAL_FS.htm (mdk-arm\stm324xg-eval):<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART4_Config
+Usbd_core.c (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\core\src):  UART4_Config();
+Usb_bsp.c (src):void UART4_Config(void)
+Usb_bsp.c (src):void UART4_Config(void)
+Usb_bsp.c (src):void UART4_Config(void)
+Usb_bsp.h (c:\users\huangcaihui\desktop\资料\smt32f405_自动化测试\stm32_usb-host-device_lib_v2.1.0_new\stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_otg_driver\inc):void UART4_Config(void);
